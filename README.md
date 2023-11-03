@@ -46,8 +46,8 @@ python audiobook_renamer.py --root_folder /path/to/audiobooks --max_renames -1
 python audiobook_renamer.py --root_folder /path/to/audiobooks --remove_empty_folders
 ```
 ### '--output_file'
-Specifies the file where the script's output will be saved.
-You can provide the path to the output file, and the script will write its results to that file.
+Specifies the file where a copy of the script's output will be saved.
+You can provide the path to the output file, and the script will write a copy of its results to that file.
 
 ##### Example with custom output file:
 ```bash
