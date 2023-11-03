@@ -57,6 +57,3 @@ python audiobook_renamer.py --root_folder /path/to/audiobooks --output_file outp
 Once you have the necessary prerequisites in place and have a clear understanding of the available arguments, you can run the Audiobook Renaming Script by executing it from the command line, as demonstrated in the examples above. If you wish to keep a record of the script's output, you can specify the --output_file argument to save the results to a file for later reference.
 
 The script will process the audiobook files within the specified root folder according to your provided arguments, renaming them and, if requested, removing empty folders. The output file will contain the results of the operation.
-
-License
-This script is provided under the MIT License, which means you are free to use and modify it according to your needs.
