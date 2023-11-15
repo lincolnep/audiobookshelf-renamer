@@ -11,6 +11,25 @@ Before using the Audiobook Renaming Script, make sure you have the following pre
 ## Disclaimer
 Use at Your Own Risk, No Warranty: This script is provided as-is, without any warranties or guarantees. You are using it at your own risk. The authors and contributors of this script are not responsible for any potential data loss or issues that may arise from its usage. Always back up your data before running the script.
 
+## Rename Examples
+It's important to keep in mind that the effectiveness of this rename tool relies heavily on the accuracy of your metadata.
+
+**Book Series Naming Convention:**
+- Format: "{authors} - {series}, {title} {book_number}"
+
+**Single Book Naming Convention:**
+- Format: "{authors} - {title}"
+
+These examples illustrate the naming conventions that should be followed when using the tool.
+
+##### Output Example:
+```
+Current Folder: /data/audiobooks/Joshua Dalzelle - Vapor Trails Terran Scout Fleet, Book 3
+New Folder: /data/audiobooks/Joshua Dalzelle - Terran Scout Fleet, Vapor Trails 3
+Current Folder: /data/audiobooks/Joshua Dalzelle - Aftershock Terran Scout Fleet, Book 5
+New Folder: /data/audiobooks/Joshua Dalzelle - Terran Scout Fleet, Aftershock 5
+```
+
 ## Usage
 To use the script, you need to run it from the command line with the specified command-line arguments. Here are the available arguments and their usage:
 
